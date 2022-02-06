@@ -1,0 +1,290 @@
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.329)), url("vllkyt6obo1bpvusa.jpg");
+    background-size:cover;
+    color: rgb(218, 153, 32);
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:93%;
+    overflow: none;
+    margin-left: 0%;
+}
+.header_cover{
+    background-color: #ffffff25;
+    -webkit-backdrop-filter: blur(12px);
+    width: fit-content;
+    padding:13px;
+    border: none;
+    backdrop-filter:unset;
+}
+
+body{
+    background:radial-gradient(circle, rgba(62, 62, 62, 0) 0%, black 100%);
+    transition: 0.3s;
+    width: fit-content;
+}
+
+#quiz{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    color:rgb(173, 154, 154);
+    width:90%;
+    box-shadow: 20px 10px 8px 0px rgba(0, 0, 0, 0.705);
+    margin: 30px;
+    padding: 30px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0.534)), url("20180717-1W2A7015.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom:10%;
+    padding-top:50px;
+}
+
+.input{
+   font-size: 31px;
+   border-style:none;
+   background: transparent;
+   margin: 10px;
+   color: rgb(255, 255, 255);
+}
+
+.input:hover{
+    border-bottom: 1px solid silver;
+}
+hr{border: 1px solid rgba(128, 128, 128, 0.253);}
+.input:focus{
+    border:none;
+    outline: none;
+    background: transparent;
+}
+
+.myBtn {
+    font-size: 18px;
+    border:none;
+    border-radius: 40px ;
+    background:radial-gradient(circle, rgba(62, 62, 62, 0) 0%, rgba(0, 0, 0, 0.555) 100%);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    margin-left: 75%;
+    margin-top: 200px;
+}
+.myBtn:hover {
+    background-color: #555;
+}
+
+#footer{
+    background-color: black;
+    text-align: center;
+    color: goldenrod;
+    display:grid;
+}
+    
+#blink {
+    font-size: 20px;
+    font-weight: bold;
+    color: lightgrey;
+     transition: 5s;
+     text-align: center;
+}
+
+
+section{
+    padding:20px;
+    display: flex;
+    flex-wrap:wrap;
+    position: relative;
+    justify-content: center;
+    gap:50px;
+}
+
+
+section img {
+    position:relative;
+    max-width:100%;
+    box-shadow: 0px 10px 08px 0px rgba(0, 0, 0, 0.678);
+}
+      
+section .content  {
+        background: rgb(0, 0, 0); /* Fallback color */
+        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+        color: #f1f1f1;
+        padding: 20px;
+        bottom:10px;
+        box-shadow: 0px 10px 08px 0px rgba(0, 0, 0, 0.678);
+        height: fit-content;
+        margin-top: 70px;
+}
+
+section-before{
+    background-color: thistle;
+    position: relative;
+    border-radius: 50px;
+    opacity: 70%;
+    color: red;
+}
+.text{
+          font-family: -apple-system;
+          font: weight 8px;
+          color:white;
+          border-style:hidden;
+          width:auto;
+          padding: 5px;
+         background: rgba(197, 92, 92, 0.63);
+         margin-top:50px;
+}
+
+.info{
+    display:inline-flex;
+    gap:10px;
+    align-content: center;
+    justify-content: center;
+    position:relative;
+    padding:10px;
+    font-size: 30px;
+}
+
+#info,#result{
+    font-family: 'Quintessential', cursive;
+    font-size: 30px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    text-align: center;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #000000ce;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 50px;
+}
+  
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.form{
+    width: 100%;
+    position: relative;
+    height:50px;
+    overflow: hidden;
+}
+
+.form input{
+    width:100%;
+    color:rgb(245, 245, 245);
+    padding-top: 20px;
+    border:none;
+    Outline:none;
+    font-size: 18px;
+}
+
+.form label{
+    position: absolute;
+    bottom:0px;
+    left:0%;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid rgb(109, 106, 106);
+}
+
+.form label::after{
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
+    height: 100%;
+    width: 100%;
+    border-bottom: 3px solid rgba(85, 80, 80, 0.774);
+    transform: translateX(-100%);
+    transition: all 0.3s ease;
+}
+li{
+    padding: 7px;
+    font-family: 'Quintessential', cursive;
+    color:linen
+}
+a:hover{
+    margin:20px;
+    border-bottom: 2px solid rgb(116, 115, 114);
+    border-top:2px solid rgb(160, 163, 159);
+}
+
+.content-name{
+    position:absolute;
+    bottom:5px;
+    left:0px;
+    transition: all 0.3s ease;
+    font-size: 20px;
+    font-family: 'Quintessential', cursive;
+}
+
+.form input:focus + .label-name .content-name, .form input:valid + .label-name .content-name{
+    transform:translateY(-150%);
+    font-size: 14px;
+    color:rgb(82, 78, 78);
+}
+.form input:focus+ .label-name::after, .form input:valid + .label-name::after{
+    transform: translateX(0%);
+}
+
+.questions{
+    margin-right: 20%;
+}
+
+@media screen and (max-width:1200px){
+
+   .header{
+       max-width: fit-content;
+   }
+
+    #quiz{
+        width: fit-content;
+        background-size:cover;
+        background-repeat:no-repeat;
+    }
+    .container {
+        position: relative;
+        display: inline-flex;
+        top: 0px;
+        right:250px;
+        width:60%
+    }
+    .myBtn{margin-left: 50%;}
+    hr{border: none;}
+    .questions{padding-top:40px}
+    section img{
+        max-width:100%;
+    }
+    section .content {
+        margin-top:2px;
+    }
+}
+

@@ -1,0 +1,26 @@
+body,html{
+    background-color: silver;
+   margin: 40px;
+}
+
+div{
+   background: rgb(248, 248, 248);
+   width: fit-content;
+   padding: 40px;
+   
+}
+
+h3{
+    color:green;
+    font-size: 40px;
+}
+p{
+    font-size: 30px;
+}
+@media screen and (max-width:1200px){
+    div{
+        width:100%;
+        box-shadow: 0px 10px 08px 0px rgba(0, 0, 0, 0.678);
+    }
+   
+}
