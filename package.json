@@ -1,0 +1,13 @@
+{
+  "name": "bigbernerp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon App"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
