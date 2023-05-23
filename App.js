@@ -8,8 +8,8 @@ const Dotenv = require('./.env')
 //initialize app 
 const app = express()
 
-mongoose.set('StrictQuery',false)
-mongoose.connect('mongodb://localhost:27017/',{useNewUriParser:true,UseUnifiedTopology:true})
+mongoose.set('strictQuery',true)
+mongoose.connect(Dotenv.dbUrl,{useNewUrlParser: true})
 .then(result=>console.log('connected to db'))
 .catch(err=>console.log(err))
 
